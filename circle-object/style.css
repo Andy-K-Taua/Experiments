@@ -1,9 +1,66 @@
+.borderSq
+{
+  width: 200px;
+  margin-left: 440px;
+  position:  absolute;
+}
+.borderCi
+{
+  width: 200px;
+  margin-right: 50px;
+  position: absolute;
+}
+.borderTr
+{
+  width: 200px;
+  margin-left: 210px;
+  position: absolute;
+}
+.borderEx
+{
+  /* border: 3px solid #73AD21; */
+  width: 200px;
+  height: 200px;
+  margin-left: 650px;
+  position: absolute;
+}
+
+.square
+{
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+}
+
 .circle
 {
-  height: 50px;
-  width: 50px;
-  background-color: black;
+  height: 200px;
+  width: 200px;
+  background-color: red;
   border-radius: 50%;
-  /* border: 3px solid #73AD21 */
+}
+
+.triangle
+{
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid lightgreen;
+}
+
+.ex
+{
+  height: 140px;
+  width: 0px;
+  margin-left: 30px;
+  border-right: 70px solid transparent; /* This is the bottom right angle point */
+  border-left: 70px solid transparent; /* This is the bottom left angle point */
+  border-bottom: 60px solid blue;
+  height: 80px;
+  width: 0px;
+  margin-left: 28px;
+  border-right: 70px solid transparent; /* This is the bottom right angle point */
+  border-left: 70px solid transparent; /* This is the bottom left angle point */
+  border-top: 60px solid blue;
+
 
 }
