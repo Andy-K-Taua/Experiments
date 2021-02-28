@@ -16,14 +16,44 @@
   margin-left: 210px;
   position: absolute;
 }
-.borderEx
+
+
+.borderEx0
 {
   /* border: 3px solid #73AD21; */
   width: 200px;
   height: 200px;
-  margin-left: 650px;
+  margin-left: 680px;
+  background-color: blue;
   position: absolute;
 }
+.borderEx1
+{
+  /* border: 3px solid #73AD21; */
+  width: 200px;
+  height: 200px;
+  margin-left: 680px;
+  position: absolute;
+}
+.borderEx2
+{
+  /* border: 3px solid #73AD21; */
+  width: 200px;
+  height: 200px;
+  margin-left: 680px;
+  position: absolute;
+}
+.borderEx3
+{
+  /* border: 3px solid #73AD21; */
+  width: 200px;
+  height: 200px;
+  margin-left: 680px;
+  position: absolute;
+}
+
+
+
 
 .square
 {
@@ -47,20 +77,46 @@
 	border-bottom: 200px solid lightgreen;
 }
 
-.ex
+.ex0
 {
-  height: 140px;
-  width: 0px;
-  margin-left: 30px;
-  border-right: 70px solid transparent; /* This is the bottom right angle point */
-  border-left: 70px solid transparent; /* This is the bottom left angle point */
-  border-bottom: 60px solid blue;
-  height: 80px;
-  width: 0px;
-  margin-left: 28px;
-  border-right: 70px solid transparent; /* This is the bottom right angle point */
-  border-left: 70px solid transparent; /* This is the bottom left angle point */
-  border-top: 60px solid blue;
+  /* Top triangle */
+  width: 0;
+	height: 0;
+  margin-left: 40px; /* moves the triangle left to right */
+  margin-top: 140px; /* moves the triangle up and down on the screen */
+	border-left: 60px solid transparent; /* moves top point along the x axis. Higher the number the more east it goes */
+	border-right: 60px solid transparent; /* moves bottom right point along the x axis. Higher the number the more east it goes */
+	border-bottom: 60px solid white; /* controls the size of the triangle height wise. Higher the number the taller it gets */
+}
+.ex1
+{
+  /* bottom triangle */
+  width: 0;
+	height: 0;
+  margin-left: 40px; /* moves the triangle left to right */
+  margin-bottom: 140px; /* moves the triangle up and down on the screen */
+	border-left: 60px solid transparent;/* moves top point along the x axis. Higher the number the more east it goes */
+	border-right: 60px solid transparent;/* moves bottom right point along the x axis. Higher the number the more east it goes */
+	border-top: 60px solid white; /* controls the size of the triangle height wise. Higher the number the taller it gets */
+}
+.ex2
+{
+  /* right triangle */
+  width: 0;
+	height: 0;
+  margin-left: 140px;
+  margin-top: 20px;
+	border-top: 80px solid transparent;
+	border-right: 60px solid white;
+	border-bottom: 80px solid transparent;
 
-
+}
+.ex3
+{
+  width: 0;
+	height: 0;
+  margin-top: 20px;
+	border-top: 80px solid transparent;
+	border-left: 60px solid white;
+	border-bottom: 80px solid transparent;
 }
